@@ -20,7 +20,7 @@
     });
     //animation scroll js
     var html_body = $('html, body');
-    $('.navbar a , .backtotop a').on('click', function () {
+    $('.backtotop a').on('click', function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
